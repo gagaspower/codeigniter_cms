@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /public/assets/
+Allow: /
+
+sitemap: https://ruangpojok.net/sitemap.xml
