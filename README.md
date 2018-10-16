@@ -7,4 +7,12 @@ cara menjalankan CMS ini :
 3. Ubah koneksi database yang berada di application/config/database.php
 4. Save dan jalankan di browser.
 
+Jika terdapat error saat pertama kali menjalankan maka Non-aktifkan hooks 
 
+application/config/config.php
+
+$config['enable_hooks'] = TRUE;
+
+ke 
+
+$config['enable_hooks'] = FALSE;
